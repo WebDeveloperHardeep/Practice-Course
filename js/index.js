@@ -34,4 +34,14 @@
 // console.log(hello);
 
 // ====================================================
+// couple string properties and methods 
+// const s =`hello world`;
+// const r = `technology, computer, it, code`
+// console.log(s.length);
+// console.log(s.toUpperCase);
+// console.log(s.toLocaleLowerCase);
+// console.log(s.substring(0, 5).toUpperCase());
+// console.log(r.split(', '));
+
+// ====================================================
 
