@@ -45,3 +45,19 @@
 
 // ====================================================
 
+// Arrays - Varibles that hold multiple values
+// create array with numbers
+const numbers = new Array(1,2,3,4,5,6,7);
+console.log(numbers);
+
+// create array with strings
+
+const fruits =['apples', 'oranges','pears', 'mango', 10, true];
+fruits[3] = 'grapes'; // add into the last of fruits array
+fruits.push('mangoes');// add into the last of fruits array
+fruits.unshift( 'banana');//// add into First of fruits array
+fruits.pop();
+console.log(Array.isArray('Hello'));
+console.log(fruits.indexOf('pears'));
+console.log(fruits);
+
