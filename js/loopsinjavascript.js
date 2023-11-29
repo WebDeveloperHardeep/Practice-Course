@@ -35,3 +35,49 @@
 //     console.log(todos[i].text);
 // }
 // How to loop through array we could use a for loop
+// ========================================================
+
+// Other Method For of loop
+// const todos = [
+//     {
+//         id: 1,
+//         text: 'Tale out trash',
+//         isCompleted: true
+//     },
+//     {
+//         id: 2,
+//         text: 'Meeting with boss',
+//         isCompleted: true
+//     },    {
+//         id: 3,
+//         text: 'Dentist Appt',
+//         isCompleted: false
+//     }
+// ];
+// For of loop
+// for(let todo of todos){
+//     console.log(todo.text)
+// }
+
+// for each, map, filter
+
+// todos.forEach(function(todo){
+// console.log(todo.text);
+// })
+
+// Map
+// const todoText = todos.map(function(todo){
+//     return todo.text;
+// });
+
+// console.log(todoText);
+
+// Filter
+
+// const todoCompleted = todos.filter(function(todo){
+//         return todo.isCompleted === true;
+//     }).map(function(todo){
+//         return todo.text;
+//     })
+    
+//     console.log(todoCompleted);
