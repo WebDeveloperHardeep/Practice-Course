@@ -55,24 +55,22 @@
 //         isCompleted: false
 //     }
 // ];
-=======
-const todos = [
-    {
-        id: 1,
-        text: 'Tale out trash',
-        isCompleted: true
-    },
-    {
-        id: 2,
-        text: 'Meeting with boss',
-        isCompleted: true
-    },    {
-        id: 3,
-        text: 'Dentist Appt',
-        isCompleted: false
-    }
-];
->>>>>>> 89578f9add663cf748d3e09695e66221238c156e
+// /const todos = [
+//     {
+//         id: 1,
+//         text: 'Tale out trash',
+//         isCompleted: true
+//     },
+//     {
+//         id: 2,
+//         text: 'Meeting with boss',
+//         isCompleted: true
+//     },    {
+//         id: 3,
+//         text: 'Dentist Appt',
+//         isCompleted: false
+//     }
+// ];
 // For of loop
 // for(let todo of todos){
 //     console.log(todo.text)
