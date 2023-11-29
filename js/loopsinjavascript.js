@@ -11,3 +11,27 @@
 //     i++;
 // }
 
+// How to loop through array we could use a for loop
+
+// const todos = [
+//     {
+//         id: 1,
+//         text: 'Tale out trash',
+//         inCompleted: true
+//     },
+//     {
+//         id: 2,
+//         text: 'Meeting with boss',
+//         inCompleted: true
+//     },    {
+//         id: 3,
+//         text: 'Dentist Appt',
+//         inCompleted: false
+//     }
+// ];
+
+// for(let i=0; i < todos.length; i++){
+//     // console.log(`For Loop Number : ${i}`)
+//     console.log(todos[i].text);
+// }
+// How to loop through array we could use a for loop
